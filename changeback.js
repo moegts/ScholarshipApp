@@ -1,15 +1,16 @@
-var test = prompt("Security test: what is 2+3= ?")
-console.log(test)
-if(test == "5")
-{
-  alert("you are not a bot!")
-}
-else if (test!= "")
-{
-  alert("you are bot! I will send you to ask Google :)")
-  location.replace("https://www.Google.com")
-}
-else{
-  alert("you are bot! I will send you to ask Google :)")
-  location.replace("https://www.Google.com")
-}
+let btnRed = document.querySelector('#btn-red');
+let btnGray = document.querySelector('#btn-gray');
+let btnBlue = document.querySelector('#btn-blue');
+let dropdown = document.querySelector('select');
+
+btnRed.addEventListener('click', () => {
+  document.body.style.background='red';
+})
+
+btnGray.addEventListener('click', () => {
+  document.body.style.background='#2c2f33';
+})
+
+btnBlue.addEventListener('click', () => {
+  document.body.style.background='blue';
+})
