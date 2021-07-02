@@ -56,23 +56,19 @@ while(y > 10)
 for(var i=1;i<=y ;i++ ){
 
   if(xx =="python" ){
-   
  document.write("<h3>"+ i + " of Python"+ "</h3>" + "<img src='photos/py.jpg' alt='python'>")
  }
   if(xx =="py" ){
  document.write("<h3>"+ i + " of Python"+ "</h3>" + "<img src='photos/py.jpg' alt='python'>")
  }
- if(xx =="Javascript" ){
-   
- document.write("<h3>"+ i + " of Javascript"+ "</h3>" + "<img src='photos/js.jpg' alt='Javascript'>")
+  if(xx =="javascript" ){
+ document.write("<h3>"+ i + " of Javascript"+ "</h3>" + "<img src='photos/js.jpg' alt='javascript'>")
  }
- if(xx =="js" ){
-   
- document.write("<h3>"+ i + " of Javascript"+ "</h3>" + "<img src='photos/js.jpg' alt='Javascript'>")
+  if(xx =="js" ){
+ document.write("<h3>"+ i + " of Javascript"+ "</h3>" + "<img src='photos/js.jpg' alt='javascript'>")
  }
- if(xx =="C++" ){
-   
- document.write("<h3>"+ i + " of C++"+ "</h3>" + "<img src='photos/cpp.jpg' alt='C++'>")
+  if(xx =="c++" ){
+ document.write("<h3>"+ i + " of C++"+ "</h3>" + "<img src='photos/cpp.jpg' alt='c++'>")
  }
  
 }
