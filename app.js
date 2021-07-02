@@ -68,7 +68,7 @@ for(var i=1;i<=y ;i++ ){
  document.write("<h3>"+ i + " of Javascript"+ "</h3>" + "<img src='photos/js.jpg' alt='javascript'>")
  }
   if(xx =="c++" ){
- document.write("<h3>"+ i + " of C++"+ "</h3>" + "<img src='photos/cpp.jpg' alt='c++'>")
+ document.write("<h3>"+ i + " of C++"+ "</h3>" + "<img src='photos/cpp.jpg' alt='cpp'>")
  }
  
 }
