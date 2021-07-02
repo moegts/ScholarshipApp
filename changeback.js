@@ -14,3 +14,4 @@ btnGray.addEventListener('click', () => {
 btnBlue.addEventListener('click', () => {
   document.body.style.background='blue';
 })
+
